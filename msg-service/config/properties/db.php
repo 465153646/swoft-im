@@ -11,8 +11,8 @@ return [
     'master' => [
         'name'        => 'master',
         'uri'         => [
-            '127.0.0.1:3306/chat?user=xiaodo&password=xiaodo&charset=utf8',
-            '127.0.0.1:3306/chat?user=xiaodo&password=xiaodo&charset=utf8',
+            '127.0.0.1:3306/zhjie_chat?user=root&password=zhjie881225&charset=utf8',
+            '127.0.0.1:3306/zhjie_chat?user=root&password=zhjie881225&charset=utf8',
         ],
         'minActive'   => 8,
         'maxActive'   => 8,
@@ -25,8 +25,8 @@ return [
     'slave' => [
         'name'        => 'slave',
         'uri'         => [
-            '127.0.0.1:3306/chat?user=xiaodo&password=xiaodo&charset=utf8',
-            '127.0.0.1:3306/chat?user=xiaodo&password=xiaodo&charset=utf8',
+            '127.0.0.1:3306/zhjie_chat?user=root&password=zhjie881225&charset=utf8',
+            '127.0.0.1:3306/zhjie_chat?user=root&password=zhjie881225&charset=utf8',
         ],
         'minActive'   => 8,
         'maxActive'   => 8,
